@@ -157,7 +157,7 @@ function mostrarSeccion(seccion) {
  * Carga la lista de usuarios desde el servidor.
  */
 function cargarUsuarios() {
-    fetch('https://stack-vercel-back.vercel.app//api/usuarios', {
+    fetch('https://stack-vercel-back.vercel.app/api/usuarios', {
       method: 'GET'
     })
     .then(response => response.json())
