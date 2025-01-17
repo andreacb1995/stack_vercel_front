@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function() {
      };
  
      // Enviar los datos al servidor
-     fetch('https://stack-vercel-back.vercel.app//api/crearusuario', {
+     fetch('https://stack-vercel-back.vercel.app/api/crearusuario', {
        method: 'POST',
        headers: {
          'Content-Type': 'application/json'
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
           return;
       }
 
-      fetch(`https://stack-vercel-back.vercel.app//api/usuarios/${usuarioId}`, {
+      fetch(`https://stack-vercel-back.vercel.app/api/usuarios/${usuarioId}`, {
           method: 'GET',
       })
       .then(response => {
